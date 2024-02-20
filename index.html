@@ -26,12 +26,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="Combo Star+ Disney+">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">R$ 45,90/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo"> 
                     <img src="./dist/images/logos/disney_star_plus_starzplay.png" alt="Combo Star+ Disney+">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">R$ 45,90/mês*</span>
                 </li>
             </ul>
@@ -40,18 +40,18 @@
             </p>
         </div>
     </section>
-    <nav class="shows__tabs">
-        <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-            Em breve
-        </button>
-        <button data-tab-button="populares" class="shows__tabs__button">
-            Mais Populares
-        </button>
-        <button data-tab-button="star_plus" class="shows__tabs__button">
-            Mais no Star+
-        </button>
-    </nav>
     <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Em breve
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Mais Populares
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Mais no Star+
+            </button>
+        </nav>
         <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
@@ -113,6 +113,38 @@
             </li>
         </ul>
     </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha seu Plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
+                <strong class="title--small">R$33,90*</strong>
+                <p class="text--big">
+                    Assista a filmes, séries e documentários da Disney, Pixar, Marvel, Star Wars e National Geographic.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
+                <strong class="title--small">R$55,90*</strong>
+                <p class="text--big">
+                    Combo com Disney+ e Star+ Os melhores torneios e ligas esportivas do mundo ao vivo com a ESPN Produções locais, programas, séries e filmes premiados exclusivos do Star+
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
+                <strong class="title--small">R$65,90*</strong>
+                <p class="text--big">
+                    Pacote com Disney+, Star+ e Starzplay. A melhor seleção de filmes, séries e programas de TV premiados.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *Preço promocional por tempo limitado. Após o período promocional, o preço será de R$ 27,90/mês.
+        </p>
+        </section>
     <script src="./src/main.js"></script>
 </body>
 </html>
