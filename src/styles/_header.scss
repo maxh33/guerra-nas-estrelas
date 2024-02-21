@@ -1,0 +1,21 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 36px;
+    }
+
+    &__logo {
+        max-width: 80px;
+        width: 80px;
+    }
+
+    &__links {
+        display: flex;
+
+        &__item {
+            margin: 5px;
+        }
+    }
+}

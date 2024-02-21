@@ -5,6 +5,7 @@
 @use 'available-devices';
 @use 'faq';
 @use 'footer';
+@use 'header';
 
 
 @font-face {
@@ -24,6 +25,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Avenir, sans-serif;
+  list-style: none;
 }
 
 body {
@@ -77,11 +79,36 @@ body {
   height: 60px;
   font-size: 18px;
   color: variables.$secondaryTextColor;
-  background-color: #6421ff;
+  background-color: variables.$backGroundColorPrimaryButton;
   text-transform: uppercase;
   border-radius: 4px;
-  margin-top: 2vw;
-  margin-bottom: 8px;
+  text-decoration: none;
+  padding: 8px 14px;
+  letter-spacing: 1px;
+  border: 1px solid variables.$backGroundColorPrimaryButton;
+
+  &:hover {
+    background-color: lighten(variables.$backGroundColorPrimaryButton, 3%)
+  }
+
+  &--secondary {
+    background-color: variables.$backGroundColorSecondaryButton;
+    border-color: variables.$backGroundColorSecondaryButton;
+
+    &:hover {
+      background-color: lighten(variables.$backGroundColorSecondaryButton, 3%);
+  }
+}
+
+  &--dark {
+    background-color: rgba(variables.$backGroundColorDarkButton, 0.8);
+    border-color: variables.$secondaryTextColor;
+  
+    &:hover {
+      background-color: variables.$secondaryTextColor;
+      color: variables.$backGroundColor;
+    }
+  }
 }
 
 .image-text-section {
