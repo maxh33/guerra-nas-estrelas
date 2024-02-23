@@ -1,4 +1,4 @@
-# Title of Your Project
+# Disney+ Streaming Landing Page Clone
 
 Your Project is a dynamic web application that provides an interactive user experience. It features a responsive design with a variety of text styles, a button component with multiple variants, and a flexible image-text section. The design is built with SCSS, using variables for consistent theming and mixins for reusable styles. The project uses Gulp to automate various tasks, including compiling SCSS to CSS, minifying JavaScript, and optimizing images.
 
@@ -14,7 +14,7 @@ Your Project is a dynamic web application that provides an interactive user expe
 
 Here's a quick demo of how to use our application:
 
-![Demo](https://link-to-your-gif.com)
+![Demo](https://github.com/maxh33/streaming-landing-page-clone/blob/main/img/streaming-landing-page-clone.gif?raw=true)
 
 To use this application, simply navigate to the website and explore the different sections. You can switch between different tabs of content, click on the FAQ questions to reveal the answers, and interact with the buttons.
 
