@@ -1,6 +1,6 @@
 # Disney+ Streaming Landing Page Clone
 
-Your Project is a dynamic web application that provides an interactive user experience. It features a responsive design with a variety of text styles, a button component with multiple variants, and a flexible image-text section. The design is built with SCSS, using variables for consistent theming and mixins for reusable styles. The project uses Gulp to automate various tasks, including compiling SCSS to CSS, minifying JavaScript, and optimizing images.
+The project is a dynamic web application that provides an interactive user experience. It features a responsive design with a variety of text styles, a button component with multiple variants, and a flexible image-text section. The design is built with SCSS, using variables for consistent theming and mixins for reusable styles. The project uses Gulp to automate various tasks, including compiling SCSS to CSS, minifying JavaScript, and optimizing images.
 
 ## Technologies Used
 

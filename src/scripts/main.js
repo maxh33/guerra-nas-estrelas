@@ -27,8 +27,7 @@ document.addEventListener('DOMContentLoaded', function()  {
             button.target.classList.add('shows__tabs__button--is-active');
         })
     }
-
-
+ 
     // FAQ section
     for (let i = 0; i < questions.length; i++) {
         questions[i].addEventListener('click', abreOuFechaResposta);
