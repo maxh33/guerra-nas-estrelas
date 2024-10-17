@@ -1,4 +1,4 @@
-# Disney+ Streaming Landing Page Clone
+# Guerra nas Estrelas Landing Page 
 
 The project is a dynamic web application that provides an interactive user experience. It features a responsive design with a variety of text styles, a button component with multiple variants, and a flexible image-text section. The design is built with SCSS, using variables for consistent theming and mixins for reusable styles. The project uses Gulp to automate various tasks, including compiling SCSS to CSS, minifying JavaScript, and optimizing images.
 
@@ -10,18 +10,10 @@ The project is a dynamic web application that provides an interactive user exper
 - JavaScript
 - Gulp
 
-## How to Use
-
-Here's a quick demo of how to use our application:
-
-![Demo GIF](https://github.com/maxh33/streaming-landing-page-clone/blob/main/src/images/streaming-landing-page-clone.gif)
-
-To use this application, simply navigate to the website and explore the different sections. You can switch between different tabs of content, click on the FAQ questions to reveal the answers, and interact with the buttons.
-
 
 ## Deployment
 
-The application is deployed on Vercel and can be accessed at [https://streaming-landing-page-clone.vercel.app/](https://streaming-landing-page-clone.vercel.app/).
+The application is deployed on Vercel and can be accessed at [https://streaming-guerra-nas-estrelas.vercel.app/](https://guerra-nas-estrelas.vercel.app/).
 
 ## Running the Page Locally
 
@@ -34,7 +26,7 @@ To run the page locally, follow these steps:
     Once you have Git installed, open a terminal and navigate to the directory where you want to clone the repository. Then, run the following command:
 
     ```bash
-    git clone https://github.com/maxh33/streaming-landing-page-clone
+    git clone https://github.com/maxh33/guerra-nas-estrelas
     ```
 
 2. Navigate to the project directory.
