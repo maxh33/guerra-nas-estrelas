@@ -1,23 +1,31 @@
 {
-  "name": "streaming-landing-page-clone",
+  "name": "guerra-nas-estrelas-landing-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "gulp watch",
-    "build": "gulp",
+    "build": "gulp --gulpfile gulpfile.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
+    "gulp-copy": "^5.0.0",
+    "gulp-newer": "^1.4.0",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.70.0"
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "mozjpeg": "^8.0.0",
+    "newer": "^0.1.5",
+    "pngquant": "^4.2.0",
+    "sass": "^1.70.0",
+    "vinyl-buffer": "^1.0.1"
   },
   "devDependencies": {
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^9.1.0",
     "gulp-uglify": "^3.0.2"
   }
 }
