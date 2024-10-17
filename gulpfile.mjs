@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
 // Images Optimization
 gulp.task('images', function() {
   return gulp.src('src/images/**/*')
-    .pipe(copy('public/images', { prefix: 2 }));
+    .pipe(copy('dist/images', { prefix: 2 }));
 });
 
 // Default Task
