@@ -26,5 +26,11 @@ gulp.task('images', function() {
     .pipe(copy('dist/images', { prefix: 2 }));
 });
 
+// Copy HTML to dist
+gulp.task('html', function () {
+  return gulp.src('index.html')
+    .pipe(gulp.dest('dist'));
+});
+
 // Default Task
-gulp.task('default', gulp.parallel('styles', 'scripts', 'images'));
+gulp.task('default', gulp.parallel('styles', 'scripts', 'images','html'));
